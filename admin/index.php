@@ -14,12 +14,12 @@ $classController = '\App\Controllers\Admin\\' . $name;
 $path = __DIR__ . '/../' . str_replace('\\', '/', $classController) . '.php';
 
 try {
-    if (!class_exists($classController)) {
+    if (!is_readable($path)) {
         throw new ControllerNotFoundException ($classController . ' - Such Controller Not Found');
     }
-        $controller = new $classController;
-        $controller->data = (!empty($parts[3])) ? $parts[3] : null;
-        $controller();
+    $controller = new $classController;
+    $controller->data = (!empty($parts[3])) ? $parts[3] : null;
+    $controller();
 } catch (DbException | ErrorException | BaseException | MultiException |
 ControllerNotFoundException $e) {
     if ($e instanceof MultiException) {
