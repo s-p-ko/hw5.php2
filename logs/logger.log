@@ -1,0 +1,12 @@
+
+error | 2019-04-04 16:21:32 File: D:\OS\OSPanel\domains\php2.loc\index.php Line: 17 Description: \App\Controllers\Gkjljkl;kk - Such Controller Not Found
+error | 2019-04-05 01:22:08 File: D:\OS\OSPanel\domains\php2.loc\index.php Line: 17 Description: \App\Controllers\Hgkklj;k - Such Controller Not Found
+error | 2019-04-05 01:22:18 File: D:\OS\OSPanel\domains\php2.loc\App\Model.php Line: 147 Description: The field <b>title</b> is not filled.
+error | 2019-04-05 01:22:18 File: D:\OS\OSPanel\domains\php2.loc\App\Model.php Line: 147 Description: The field <b>content</b> is not filled.
+error | 2019-04-05 01:23:00 File: D:\OS\OSPanel\domains\php2.loc\App\Model.php Line: 147 Description: The field <b>title</b> is not filled.
+error | 2019-04-05 01:23:00 File: D:\OS\OSPanel\domains\php2.loc\App\Model.php Line: 147 Description: The field <b>content</b> is not filled.
+error | 2019-04-05 01:23:06 File: D:\OS\OSPanel\domains\php2.loc\App\Model.php Line: 147 Description: The field <b>title</b> is not filled.
+error | 2019-04-05 01:23:06 File: D:\OS\OSPanel\domains\php2.loc\App\Model.php Line: 147 Description: The field <b>content</b> is not filled.
+error | 2019-04-05 01:24:19 File: D:\OS\OSPanel\domains\php2.loc\App\Db.php Line: 27 Description: No database connection: SQLSTATE[HY000] [1049] Unknown database 'php2locw'
+error | 2019-04-05 01:26:19 File: D:\OS\OSPanel\domains\php2.loc\App\Db.php Line: 52 Description: Error executing the request: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'php2loc.newss' doesn't exist
+error | 2019-04-05 01:49:35 File: D:\OS\OSPanel\domains\php2.loc\App\Controllers\Article.php Line: 14 Description: Error 404 - Article with such id <b>14567</b> not found
