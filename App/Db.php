@@ -68,7 +68,7 @@ class Db
         try {
             $sth = $this->dbh->prepare($sql);
         } catch (\PDOException $e) {
-            throw new DbException('Error executing the request: ' . $e->getMessage());
+            throw new DbException('Error while preparing the request: ' . $e->getMessage());
         }
         try {
             return $sth->execute($params);

@@ -7,3 +7,8 @@ error | 2019-04-05 02:26:14 File: D:\OS\OSPanel\domains\hw5.php2\admin\index.php
 error | 2019-04-05 02:26:40 File: D:\OS\OSPanel\domains\hw5.php2\index.php Line: 18 Description: \App\Controllers\Hkulk;k - Such Controller Not Found
 error | 2019-04-05 02:29:18 File: D:\OS\OSPanel\domains\hw5.php2\admin\index.php Line: 18 Description: \App\Controllers\Admin\Khkjllk - Such Controller Not Found
 error | 2019-04-05 02:29:31 File: D:\OS\OSPanel\domains\hw5.php2\index.php Line: 18 Description: \App\Controllers\Jhkjjlk;kl - Such Controller Not Found
+error | 2019-04-05 02:42:50 File: D:\OS\OSPanel\domains\hw5.php2\admin\index.php Line: 18 Description: \App\Controllers\Admin\Jhkhljlk;lk - Such Controller Not Found
+error | 2019-04-06 01:26:08 File: D:\OS\OSPanel\domains\hw5.php2\App\Controllers\Article.php Line: 14 Description: Error 404 - Article with such id <b>5700009</b> not found
+error | 2019-04-06 01:26:32 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 147 Description: The field <b>title</b> is not filled.
+error | 2019-04-06 01:26:32 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 147 Description: The field <b>content</b> is not filled.
+error | 2019-04-06 01:26:56 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 147 Description: The field <b>content</b> is not filled.
