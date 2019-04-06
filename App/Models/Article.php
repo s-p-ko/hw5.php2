@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Models;
 
 use App\Model;
@@ -7,10 +8,10 @@ use App\Model;
  * Class Article
  * @package App\Models
  *
- * @property int    $id
+ * @property int $id
  * @property string $title
  * @property string $content
- * @property int    $author_id
+ * @property int $author_id
  * @property Author $author
  */
 class Article extends Model

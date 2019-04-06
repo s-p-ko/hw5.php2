@@ -1,12 +1,12 @@
 <?php
 require __DIR__ . '/../autoload.php';
 
-use App\Exceptions\BaseException;
-use App\Exceptions\ErrorException;
-use App\Exceptions\DbException;
-use App\Exceptions\MultiException;
-use App\Exceptions\ControllerNotFoundException;
 use App\Controllers\Admin\Error;
+use App\Exceptions\BaseException;
+use App\Exceptions\ControllerNotFoundException;
+use App\Exceptions\DbException;
+use App\Exceptions\ErrorException;
+use App\Exceptions\MultiException;
 
 $parts = explode('/', $_SERVER['REQUEST_URI']);
 $name = (!empty($parts[2])) ? ucfirst($parts[2]) : 'Index';

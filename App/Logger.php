@@ -1,4 +1,5 @@
 <?php
+
 namespace App;
 
 use Psr\Log\AbstractLogger;
@@ -20,9 +21,9 @@ class Logger extends AbstractLogger
     {
         $text = $level . ' | ';
         $text .= date('Y-m-d H:i:s');
-        $text .= ' File: ' .  $message->getFile();
-        $text .= ' Line: ' .  $message->getLine();
-        $text .= ' Description: ' .  $message->getMessage();
+        $text .= ' File: ' . $message->getFile();
+        $text .= ' Line: ' . $message->getLine();
+        $text .= ' Description: ' . $message->getMessage();
 
         file_put_contents($this->logsFile, $text . PHP_EOL, FILE_APPEND);
     }

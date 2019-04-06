@@ -1,6 +1,5 @@
 <?php
 require_once __DIR__ . '/../autoload.php';
-use App\Exceptions\MultiException;
 
 //class MyException1 extends Exception {}
 //class MyException2 extends Exception {}

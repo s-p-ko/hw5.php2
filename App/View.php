@@ -1,4 +1,5 @@
 <?php
+
 namespace App;
 
 /**
@@ -10,6 +11,14 @@ class View implements \Countable, \Iterator
     protected $data = [];
 
     use MagicTrait, IteratorTrait, CountableTrait;
+
+    /**
+     * @param $template string path to the template
+     */
+    public function display($template)
+    {
+        echo $this->render($template);
+    }
 
     /**
      * @param $template string path to the template
@@ -25,13 +34,5 @@ class View implements \Countable, \Iterator
         $content = ob_get_contents();
         ob_end_clean();
         return $content;
-    }
-
-    /**
-     * @param $template string path to the template
-     */
-    public function display($template)
-    {
-        echo $this->render($template);
     }
 }

@@ -12,5 +12,5 @@ function foo()
 }
 
 echo foo(); //Eto vypolnitsa
-            //I eto Vypolnitsa
-            //42
+//I eto Vypolnitsa
+//42

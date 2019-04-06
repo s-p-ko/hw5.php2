@@ -13,7 +13,7 @@
 <h1>The last news</h1>
 <h3><a href="/admin">Go to the admin panel</a></h3>
 <div>
-    <?php foreach ($articles as $article ) : ?>
+    <?php foreach ($articles as $article) : ?>
         <article>
             <h2><a href="/article/<?php echo $article->id; ?>">
                     <?php echo $article->title; ?></a></h2>

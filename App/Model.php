@@ -1,8 +1,9 @@
 <?php
+
 namespace App;
 
-use App\Exceptions\MultiException;
 use App\Exceptions\ModelValueException;
+use App\Exceptions\MultiException;
 
 /**
  * Class Model
@@ -18,7 +19,7 @@ abstract class Model
      * @return array
      * @throws Exceptions\DbException
      */
-    public static function findAll() : array
+    public static function findAll(): array
     {
         $db = new Db();
         $sql = 'SELECT * FROM ' . static::TABLE;
@@ -51,7 +52,45 @@ abstract class Model
         $db = new Db();
         $sql = 'SELECT * FROM ' . static::TABLE . ' ORDER BY id DESC LIMIT ' . $limit;
         $res = $db->query($sql, [], static::class);
-        return $res ? : false;
+        return $res ?: false;
+    }
+
+    /**
+     * Selects which this class's method to apply: insert() or update()
+     * @throws Exceptions\DbException
+     */
+    public function save()
+    {
+        if (isset($this->id)) {
+            $this->update();
+        } else {
+            $this->insert();
+        }
+    }
+
+    /**
+     * Updates data in row of table
+     * @throws Exceptions\DbException
+     */
+    public function update()
+    {
+        $db = new Db();
+        $props = get_object_vars($this);
+        $cols = [];
+        $data = [];
+        foreach ($props as $name => $value) {
+            $data[':' . $name] = $value;
+            if ('id' == $name) {
+                continue;
+            }
+            $cols[] = $name . ' = :' . $name;
+        }
+        $sql = '
+            UPDATE ' . static::TABLE . ' 
+            SET ' . implode(', ', $cols) . ' 
+            WHERE id = :id
+            ';
+        $db->execute($sql, $data);
     }
 
     /**
@@ -84,44 +123,6 @@ abstract class Model
     }
 
     /**
-     * Updates data in row of table
-     * @throws Exceptions\DbException
-     */
-    public function update()
-    {
-        $db = new Db();
-        $props = get_object_vars($this);
-        $cols = [];
-        $data = [];
-        foreach ($props as $name => $value) {
-            $data[':' . $name] = $value;
-            if ('id' == $name) {
-                continue;
-            }
-            $cols[] = $name .  ' = :' . $name;
-        }
-        $sql = '
-            UPDATE ' . static::TABLE . ' 
-            SET ' . implode(', ', $cols) . ' 
-            WHERE id = :id
-            ';
-        $db->execute($sql, $data);
-    }
-
-    /**
-     * Selects which this class's method to apply: insert() or update()
-     * @throws Exceptions\DbException
-     */
-    public function save()
-    {
-        if (isset($this->id)) {
-            $this->update();
-        } else {
-            $this->insert();
-        }
-    }
-
-    /**
      * Deletes chosen object by its id
      * @throws Exceptions\DbException
      */
@@ -146,7 +147,7 @@ abstract class Model
                 if (empty($data[$key])) {
                     $errors->add(new ModelValueException(
                         'The field <b>' . $key . '</b> is not filled.'
-                     ));
+                    ));
                 }
                 $this->$key = $data[$key];
             }

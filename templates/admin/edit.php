@@ -10,23 +10,27 @@
 </head>
 <body>
 <h1>Edit the article</h1>
-    <form method="post">
-        <p>Title</p>
-        <input type='hidden' name="id" value="<?php echo $article->id; ?>">
-        <input type="text" size="60" maxlength="250" name="title"
-               value="<?php echo $article->title; ?>">
-        <p>Content</p>
-        <textarea name="content" id="" cols="60" rows="10" ><?php echo $article->content; ?></textarea>
-        <?php if (!empty($article->author)) : ?>
-            <p><b>Author: <?php echo $article->author->name; ?></b></p>
-        <?php endif; ?>
-        <br><br>
-        <button formaction="/admin/rewrite" type="submit">
-            Rewrite the article</button>
-        <button formaction="/admin/add" type="submit">
-            Save as new article</button>
-        <button formaction="/admin/canceled" type="submit">
-            Cancel</button>
-    </form>
+<form method="post">
+    <p>Title</p>
+    <input type='hidden' name="id" value="<?php echo $article->id; ?>">
+    <input type="text" size="60" maxlength="250" name="title"
+           value="<?php echo $article->title; ?>">
+    <p>Content</p>
+    <textarea name="content" id="" cols="60"
+              rows="10"><?php echo $article->content; ?></textarea>
+    <?php if (!empty($article->author)) : ?>
+        <p><b>Author: <?php echo $article->author->name; ?></b></p>
+    <?php endif; ?>
+    <br><br>
+    <button formaction="/admin/rewrite" type="submit">
+        Rewrite the article
+    </button>
+    <button formaction="/admin/saveasnew" type="submit">
+        Save as new article
+    </button>
+    <button formaction="/admin/canceled" type="submit">
+        Cancel
+    </button>
+</form>
 </body>
 </html>

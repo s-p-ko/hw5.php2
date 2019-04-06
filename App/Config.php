@@ -1,4 +1,5 @@
 <?php
+
 namespace App;
 
 /**
@@ -7,8 +8,8 @@ namespace App;
  */
 class Config
 {
-    public $data;
     protected static $instance;
+    public $data;
 
     /**
      * Config constructor.
@@ -22,7 +23,7 @@ class Config
     /**
      * @return Config
      */
-    public static function instance() : self
+    public static function instance(): self
     {
         if (null === self::$instance) {
             self::$instance = new self();

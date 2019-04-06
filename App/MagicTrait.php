@@ -1,4 +1,5 @@
 <?php
+
 namespace App;
 
 /**
@@ -14,20 +15,20 @@ trait MagicTrait
 
     /**
      * @param $name string
-     * @param $value mixed
-     */
-    public function __set($name, $value)
-    {
-        $this->data[$name] = $value;
-    }
-
-    /**
-     * @param $name string
      * @return mixed|null
      */
     public function __get($name)
     {
         return $this->data[$name] ?? null;
+    }
+
+    /**
+     * @param $name string
+     * @param $value mixed
+     */
+    public function __set($name, $value)
+    {
+        $this->data[$name] = $value;
     }
 
     /**

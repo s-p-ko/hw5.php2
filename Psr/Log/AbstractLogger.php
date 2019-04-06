@@ -5,5 +5,5 @@ namespace Psr\Log;
 
 abstract class AbstractLogger implements LoggerInterface
 {
-  use LoggerTrait;
+    use LoggerTrait;
 }
