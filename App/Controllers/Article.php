@@ -6,8 +6,17 @@ use App\Controller;
 use App\Exceptions\ErrorException;
 use App\Models\Article as ArticleModel;
 
+/**
+ * Class Article
+ * @package App\Controllers
+ */
 class Article extends Controller
 {
+    /**
+     * @return void
+     * @throws ErrorException
+     * @throws \App\Exceptions\DbException
+     */
     public function handle()
     {
         $id = $this->data['data'];

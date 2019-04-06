@@ -4,6 +4,10 @@ namespace App;
 
 use App\Exceptions\DbException;
 
+/**
+ * Class Db
+ * @package App
+ */
 class Db
 {
     protected $dbh;

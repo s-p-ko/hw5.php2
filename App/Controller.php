@@ -2,6 +2,10 @@
 
 namespace App;
 
+/**
+ * Class Controller
+ * @package App
+ */
 abstract class Controller
 {
     protected $view;
