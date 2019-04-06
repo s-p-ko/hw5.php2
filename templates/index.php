@@ -8,7 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The last News</title>
 </head>
-<link rel="shortcut icon" href="">
 <body>
 <h1>The last news</h1>
 <h3><a href="/admin">Go to the admin panel</a></h3>

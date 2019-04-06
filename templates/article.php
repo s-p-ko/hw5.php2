@@ -8,7 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Article</title>
 </head>
-<link rel="shortcut icon" href="">
 <body>
 <h2><a href="/">Return to the main page</a></h2>
 <h1><?php echo $article->title; ?></h1>
