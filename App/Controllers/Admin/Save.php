@@ -14,7 +14,6 @@ class Save extends Controller
 {
     /**
      * @return void
-     * @throws \App\Core\MultiException
      * @throws \App\Exceptions\DbException
      * @throws \App\Exceptions\MultiException
      */
