@@ -25,7 +25,7 @@
     <button formaction="/admin/rewrite" type="submit">
         Rewrite the article
     </button>
-    <button formaction="/admin/saveasnew" type="submit">
+    <button formaction="/admin/save" type="submit">
         Save as new article
     </button>
     <button formaction="/admin/canceled" type="submit">

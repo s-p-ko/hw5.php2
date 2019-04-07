@@ -9,7 +9,7 @@ use App\Models\Article;
  * Class Saveasnew
  * @package App\Controllers\Admin
  */
-class Saveasnew extends Controller
+class Save extends Controller
 {
     /**
      * @return void
