@@ -6,7 +6,8 @@ use App\Controller;
 use App\Models\Article;
 
 /**
- * Class Saveasnew
+ * Class Save
+ * Saves edited article as new one
  * @package App\Controllers\Admin
  */
 class Save extends Controller
