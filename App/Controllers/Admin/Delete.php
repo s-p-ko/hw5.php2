@@ -17,9 +17,9 @@ class Delete extends Controller
      */
     protected function handle()
     {
-        $id = $this->data['data'];
+        $id = $this->data['prop'];
         $article = Article::findById($id);
         $article->delete();
-        static::redirect('/admin');
+        $this->redirect('/admin');
     }
 }

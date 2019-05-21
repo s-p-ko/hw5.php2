@@ -15,6 +15,6 @@ class Canceled extends Controller
      */
     protected function handle()
     {
-        static::redirect('/admin');
+        $this->redirect('/admin');
     }
 }

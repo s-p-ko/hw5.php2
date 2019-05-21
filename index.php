@@ -17,7 +17,7 @@ try {
         throw new ControllerNotFoundException ($classController . ' - Such Controller Not Found');
     }
     $controller = new $classController;
-    $controller->data = (!empty($parts[2])) ? $parts[2] : null;
+    $controller->prop = (!empty($parts[2])) ? $parts[2] : null;
     $controller();
 } catch (DbException | ErrorException | BaseException | ControllerNotFoundException $e) {
     (new \App\Logger())->error($e);

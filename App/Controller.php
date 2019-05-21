@@ -23,7 +23,7 @@ abstract class Controller
     /**
      * @param string $path
      */
-    protected static function redirect(string $path)
+    protected function redirect(string $path)
     {
         header('Location: ' . $path);
         exit;

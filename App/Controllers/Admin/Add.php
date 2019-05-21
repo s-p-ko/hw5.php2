@@ -21,6 +21,6 @@ class Add extends Controller
         $article = new Article();
         $article->fill($_POST);
         $article->save();
-        static::redirect('/admin');
+        $this->redirect('/admin');
     }
 }

@@ -19,7 +19,7 @@ class Article extends Controller
      */
     public function handle()
     {
-        $id = $this->data['data'];
+        $id = $this->data['prop'];
         if (false === $this->view->article = ArticleModel::findById($id)) {
             throw new ErrorException('Error 404 - Article with such id <b>' .
                 $id . '</b> not found');
