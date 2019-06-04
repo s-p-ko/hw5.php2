@@ -145,10 +145,8 @@ abstract class Model
 
         foreach ($data as $key => $value) {
             if (property_exists($this, $key)) {
-                if (empty($data[$key])) {
-                    $errors->add(new ModelValueException(
-                        'The field <b>' . $key . '</b> is not filled.'
-                    ));
+                if (!isset($data[$key])) {
+                    $errors->add(new ModelValueException($key));
                 }
                 $this->$key = $data[$key];
             }

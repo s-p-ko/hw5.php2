@@ -8,7 +8,7 @@ use App\Controller;
  * Class Error404
  * @package App\Controllers
  */
-class Error404 extends Controller
+class Error extends Controller
 {
     /**
      * @return void
@@ -16,6 +16,6 @@ class Error404 extends Controller
     protected function handle()
     {
         $this->view->message = $this->data['message'];
-        $this->view->display(__DIR__ . '/../../templates/404.php');
+        $this->view->display(__DIR__ . '/../../templates/error.php');
     }
 }

@@ -1,27 +1,8 @@
-error | 2019-04-05 02:23:13 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 147 Description: The field <b>title</b> is not filled.
-error | 2019-04-05 02:23:13 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 147 Description: The field <b>content</b> is not filled.
-error | 2019-04-05 02:25:21 File: D:\OS\OSPanel\domains\hw5.php2\index.php Line: 18 Description: \App\Controllers\Gkhklj; - Such Controller Not Found
-error | 2019-04-05 02:25:33 File: D:\OS\OSPanel\domains\hw5.php2\index.php Line: 18 Description: \App\Controllers\Gkhklj; - Such Controller Not Found
-error | 2019-04-05 02:25:42 File: D:\OS\OSPanel\domains\hw5.php2\admin\index.php Line: 18 Description: \App\Controllers\Admin\Uyulk; - Such Controller Not Found
-error | 2019-04-05 02:26:14 File: D:\OS\OSPanel\domains\hw5.php2\admin\index.php Line: 18 Description: \App\Controllers\Admin\Khljl;k - Such Controller Not Found
-error | 2019-04-05 02:26:40 File: D:\OS\OSPanel\domains\hw5.php2\index.php Line: 18 Description: \App\Controllers\Hkulk;k - Such Controller Not Found
-error | 2019-04-05 02:29:18 File: D:\OS\OSPanel\domains\hw5.php2\admin\index.php Line: 18 Description: \App\Controllers\Admin\Khkjllk - Such Controller Not Found
-error | 2019-04-05 02:29:31 File: D:\OS\OSPanel\domains\hw5.php2\index.php Line: 18 Description: \App\Controllers\Jhkjjlk;kl - Such Controller Not Found
-error | 2019-04-05 02:42:50 File: D:\OS\OSPanel\domains\hw5.php2\admin\index.php Line: 18 Description: \App\Controllers\Admin\Jhkhljlk;lk - Such Controller Not Found
-error | 2019-04-06 01:26:08 File: D:\OS\OSPanel\domains\hw5.php2\App\Controllers\Article.php Line: 14 Description: Error 404 - Article with such id <b>5700009</b> not found
-error | 2019-04-06 01:26:32 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 147 Description: The field <b>title</b> is not filled.
-error | 2019-04-06 01:26:32 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 147 Description: The field <b>content</b> is not filled.
-error | 2019-04-06 01:26:56 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 147 Description: The field <b>content</b> is not filled.
-error | 2019-04-06 18:26:24 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 148 Description: The field <b>title</b> is not filled.
-error | 2019-04-06 18:26:24 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 148 Description: The field <b>content</b> is not filled.
-error | 2019-04-06 18:38:03 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 148 Description: The field <b>title</b> is not filled.
-error | 2019-04-06 18:38:03 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 148 Description: The field <b>content</b> is not filled.
-error | 2019-04-06 18:48:00 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 148 Description: The field <b>title</b> is not filled.
-error | 2019-04-06 18:48:00 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 148 Description: The field <b>content</b> is not filled.
-error | 2019-04-07 13:18:36 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 149 Description: The field <b>title</b> is not filled.
-error | 2019-04-07 13:18:36 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 149 Description: The field <b>content</b> is not filled.
-error | 2019-04-07 13:19:02 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 149 Description: The field <b>title</b> is not filled.
-error | 2019-04-07 13:19:02 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 149 Description: The field <b>content</b> is not filled.
-error | 2019-05-21 09:40:47 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 149 Description: The field <b>title</b> is not filled.
-error | 2019-05-21 09:40:47 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 149 Description: The field <b>content</b> is not filled.
-error | 2019-05-21 09:41:46 File: D:\OS\OSPanel\domains\hw5.php2\App\Model.php Line: 149 Description: The field <b>content</b> is not filled.
+error | 2019-06-04 21:33:28 File: D:\OS\OSPanel\domains\hw5.php2\App\Controllers\Article.php Line: 24 Description: Error 404 - Article with such id 209 not found
+error | 2019-06-04 21:34:36 File: D:\OS\OSPanel\domains\hw5.php2\App\Db.php Line: 32 Description: No database connection: SQLSTATE[HY000] [1049] Unknown database 'php2loc1'
+error | 2019-06-04 21:34:42 File: D:\OS\OSPanel\domains\hw5.php2\App\Db.php Line: 32 Description: No database connection: SQLSTATE[HY000] [1049] Unknown database 'php2loc1'
+error | 2019-06-04 21:34:45 File: D:\OS\OSPanel\domains\hw5.php2\App\Db.php Line: 32 Description: No database connection: SQLSTATE[HY000] [1049] Unknown database 'php2loc1'
+error | 2019-06-04 21:35:09 File: D:\OS\OSPanel\domains\hw5.php2\App\Db.php Line: 32 Description: No database connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+error | 2019-06-04 21:36:00 File: D:\OS\OSPanel\domains\hw5.php2\index.php Line: 17 Description: \App\Controllers\Articlre - Such Controller Not Found
+error | 2019-06-04 21:37:24 File: D:\OS\OSPanel\domains\hw5.php2\App\Controllers\Article.php Line: 24 Description: Error 404 - Article with such id 4590 not found
+error | 2019-06-04 21:37:49 File: D:\OS\OSPanel\domains\hw5.php2\index.php Line: 17 Description: \App\Controllers\Kuygoluoipoop - Such Controller Not Found

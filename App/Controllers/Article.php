@@ -21,8 +21,8 @@ class Article extends Controller
     {
         $id = $this->data['prop'];
         if (false === $this->view->article = ArticleModel::findById($id)) {
-            throw new ErrorException('Error 404 - Article with such id <b>' .
-                $id . '</b> not found');
+            throw new ErrorException('Error 404 - Article with such id ' .
+                $id . ' not found');
         }
         $this->view->display(__DIR__ . '/../../templates/article.php');
     }

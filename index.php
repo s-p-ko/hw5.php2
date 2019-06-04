@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/autoload.php';
 
-use App\Controllers\Error404;
+use App\Controllers\Error;
 use App\Exceptions\BaseException;
 use App\Exceptions\ControllerNotFoundException;
 use App\Exceptions\DbException;
@@ -21,7 +21,7 @@ try {
     $controller();
 } catch (DbException | ErrorException | BaseException | ControllerNotFoundException $e) {
     (new \App\Logger())->error($e);
-    $controller = new Error404();
+    $controller = new Error();
     $controller->message = $e->getMessage();
     $controller();
 }
