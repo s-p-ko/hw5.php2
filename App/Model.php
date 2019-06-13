@@ -141,14 +141,16 @@ abstract class Model
      */
     public function fill(array $data): void
     {
+        if (empty($data)) {
+            return;
+        }
         $errors = new MultiException();
-
         foreach ($data as $key => $value) {
-            if (property_exists($this, $key)) {
-                if (!isset($data[$key])) {
-                    $errors->add(new ModelValueException($key));
-                }
-                $this->$key = $data[$key];
+            try {
+                $method = 'validate' . ucfirst($key);
+                $this->$method($value);
+            } catch (ModelValueException $e) {
+                $errors->add($e);
             }
         }
         if (!$errors->empty()) {
@@ -156,3 +158,4 @@ abstract class Model
         }
     }
 }
+

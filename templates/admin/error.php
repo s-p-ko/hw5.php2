@@ -15,7 +15,7 @@
         <div>
             <h1>Some fields of form have not passed validation</h1>
             <?php foreach ($message->all() as $msg) : ?>
-                <p>Cause: The field <b><?php echo $msg->getMessage(); ?></b> is not filled.</p>
+                <p>Cause: <b><?php echo $msg->getMessage(); ?></b></p>
                 <hr>
             <?php endforeach; ?>
             <!-- End of block for MultiException's messagies -->

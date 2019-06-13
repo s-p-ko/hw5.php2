@@ -6,3 +6,45 @@ error | 2019-06-04 21:35:09 File: D:\OS\OSPanel\domains\hw5.php2\App\Db.php Line
 error | 2019-06-04 21:36:00 File: D:\OS\OSPanel\domains\hw5.php2\index.php Line: 17 Description: \App\Controllers\Articlre - Such Controller Not Found
 error | 2019-06-04 21:37:24 File: D:\OS\OSPanel\domains\hw5.php2\App\Controllers\Article.php Line: 24 Description: Error 404 - Article with such id 4590 not found
 error | 2019-06-04 21:37:49 File: D:\OS\OSPanel\domains\hw5.php2\index.php Line: 17 Description: \App\Controllers\Kuygoluoipoop - Such Controller Not Found
+error | 2019-06-13 14:17:56 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 62 Description: There are not enaugh words in the article (less than 10)
+error | 2019-06-13 14:18:17 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 62 Description: There are not enaugh words in the article (less than 10)
+error | 2019-06-13 14:18:46 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 62 Description: There are not enaugh words in the article (less than 10)
+error | 2019-06-13 14:34:40 File: D:\OS\OSPanel\domains\hw5.php2\admin\index.php Line: 18 Description: \App\Controllers\Admin\A - Such Controller Not Found
+error | 2019-06-13 14:35:57 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title must be filled!
+error | 2019-06-13 14:36:10 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 67 Description: The content must be filled!
+error | 2019-06-13 16:24:57 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title must be filled!
+error | 2019-06-13 16:24:57 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 67 Description: The content must be filled!
+error | 2019-06-13 16:25:14 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 67 Description: The content must be filled!
+error | 2019-06-13 16:25:23 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title must be filled!
+error | 2019-06-13 16:25:36 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title must be filled!
+error | 2019-06-13 16:25:36 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 67 Description: The content must be filled!
+error | 2019-06-13 16:29:04 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title must be filled!
+error | 2019-06-13 16:29:04 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 67 Description: The content must be filled!
+error | 2019-06-13 16:31:30 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 67 Description: The content must be filled!
+error | 2019-06-13 16:31:51 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 67 Description: The content must be filled!
+error | 2019-06-13 22:02:19 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title must be filled!
+error | 2019-06-13 22:02:19 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 74 Description: The content must be filled!
+error | 2019-06-13 22:02:36 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title must be filled!
+error | 2019-06-13 22:02:43 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 74 Description: The content must be filled!
+error | 2019-06-13 22:02:48 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title must be filled!
+error | 2019-06-13 22:02:48 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 77 Description: Too little words in the article (less than 10 words)
+error | 2019-06-13 22:04:25 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 71 Description: The content must be filled!
+error | 2019-06-13 22:05:03 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 74 Description: Too little words in the article (less than 10 words)
+error | 2019-06-13 22:16:05 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title must be filled!
+error | 2019-06-13 22:16:13 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title must be filled!
+error | 2019-06-13 22:23:08 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 75 Description: Too little chars in the article (less than 30)
+error | 2019-06-13 22:23:33 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title cannot be empty!
+error | 2019-06-13 22:23:51 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 75 Description: Too little chars in the article (less than 30)
+error | 2019-06-13 22:24:57 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title cannot be empty!
+error | 2019-06-13 22:27:18 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title cannot be empty!
+error | 2019-06-13 22:27:37 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 77 Description: Too little chars in the article (less than 30)
+error | 2019-06-13 22:27:45 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 77 Description: Too little chars in the article (less than 30)
+error | 2019-06-13 22:29:21 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 77 Description: Too little chars in the article (less than 30)
+error | 2019-06-13 22:29:33 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 77 Description: Too little chars in the article (less than 30)
+error | 2019-06-13 22:29:44 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 77 Description: Too little chars in the article (less than 30)
+error | 2019-06-13 22:32:29 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 77 Description: Too little chars in the article (less than 30)
+error | 2019-06-13 22:32:58 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 77 Description: Too little chars in the article (less than 30)
+error | 2019-06-13 22:33:09 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 77 Description: Too little chars in the article (less than 30)
+error | 2019-06-13 22:33:53 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 77 Description: Too little chars in the content of the article (less than 30)
+error | 2019-06-13 22:34:17 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 54 Description: The title cannot be empty!
+error | 2019-06-13 22:34:48 File: D:\OS\OSPanel\domains\hw5.php2\App\Models\Article.php Line: 77 Description: Too little chars in the content of the article (less than 30)
